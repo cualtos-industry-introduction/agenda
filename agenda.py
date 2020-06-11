@@ -31,3 +31,10 @@ class Agenda():
 
     def mostrarContactos(self):
         return self.contactos
+
+    def obtenerContacto(self, nombre):
+        for contacto in self.contactos:
+            if contacto['nombre'] == nombre:
+                return contacto.copy()
+            else:
+                return {}
