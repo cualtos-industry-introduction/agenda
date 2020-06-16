@@ -1,4 +1,4 @@
-# agenda
+# utilidades agenda
 Módulos de apoyo para elaborar proyecto Agenda.
 
 ## Instalación
