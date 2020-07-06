@@ -1,4 +1,4 @@
-# agenda
+# utilidades agenda
 Módulos de apoyo para elaborar proyecto Agenda.
 
 ## Instalación
@@ -7,6 +7,6 @@ Para utlizar los módulos incluidos en este repositorio en tu proyecto, descarga
 ## Importación de módulos
 Para importar los módulos a tu código añade las siguientes lineas al principio del archivo
 ```python
-import agenda
-import contacto
+from agenda import Agenda
+from contacto import Contacto
 ```
